@@ -3,6 +3,12 @@
     "type": "project",
     "description": "SendPortal. Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost.",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+	    "url": "https://github.com/felipenehmi/sendportal-core"
+        }
+    ],
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.4",
@@ -13,7 +19,7 @@
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.3",
         "laravel/ui": "^3.0",
-        "mettle/sendportal-core": "^2.0"
+        "mettle/sendportal-core": "dev-dev-2.0.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
